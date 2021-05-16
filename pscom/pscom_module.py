@@ -95,5 +95,4 @@ class Pscom:
             return self.received_buffer_fixed
         except Exception as exc:
             print(exc)
-            print("Fall down to exception, unfortunatelly")
             return "ERROR"
